@@ -1,0 +1,187 @@
+/* Reset default margin and padding */
+* {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.image {
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header nav ul {
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+header nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+body {
+    background-color: none;
+}
+
+.hero {
+    padding: 100px 20px;
+    text-align: left;
+}
+
+.hero h2 {
+    margin-bottom: 20px;
+}
+
+.hero p {
+    margin-bottom: 40px;
+}
+
+.hero .container {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.button .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 14px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 10px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services .container {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.services {
+    padding: 100px 20px;
+    text-align: justify;
+}
+
+.services h2 {
+    margin-bottom: 40px;
+}
+
+.services .service {
+    margin-bottom: 40px;
+}
+
+.about .container {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about {
+    padding: 100px 20px;
+    text-align: justify;
+}
+
+.about h2 {
+    margin-bottom: 40px;
+}
+
+
+/* Styling for contact section */
+.contact {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+.contact .container {
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.contact h2 {
+    margin-bottom: 40px;
+}
+
+.contact form {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.contact form label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.contact form input,
+.contact form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.contact form button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.contact form button:hover {
+    background-color: #555;
+}
+
+/* Styling for footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+}
+
+.form {
+    text-align: left;
+}
+
+.submit {
+    text-align: center;
+}
