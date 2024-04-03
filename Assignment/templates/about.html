@@ -1,13 +1,14 @@
+{% load static %}
 <!DOCTYPE html>
 <html lang="en"> 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Us</title>
-    <link rel="stylesheet" href="../Static/styles.css">
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">    
 </head>
 <body>
-    <img src="../Static/Distribution 3.jpeg" alt="distribution image" class="image">
+    <img src="/static/Distribution 3.jpeg" alt="distribution image" class="image">
     <!-- Header -->
     <header>
         <div class="container">
@@ -15,9 +16,12 @@
             <br>
             <nav>
                 <ul>
-                    <li><a href="project.html">Home</a></li>
+                    <!-- <li><a href="project.html">Home</a></li>
                     <li><a href="services.html">Services</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="contact.html">Contact</a></li> -->
+                    <li><a href="{% url 'home' %}">Home</a></li>
+                    <li><a href="{% url 'service' %}">Service</a></li>
+                    <li><a href="{% url 'contact' %}">Contact</a></li>
                 </ul>
             </nav>
         </div>
